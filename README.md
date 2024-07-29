@@ -1,7 +1,7 @@
 Instructions on how to run the code
 Version 1.0
-25-Jun-2023
-Copyright (c) 2023, Lingbin Bian
+25-July-2024
+Copyright (c) 2024, Lingbin Bian
 
 1. copy_ap_pa.sh   Copy the overall .txt ROI signals to ap.txt and pa.txt
 2. MANIP_signal_txt2mat.m   Transfer the ROI signals of .txt files to .mat files
