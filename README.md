@@ -10,7 +10,7 @@ Copyright (c) 2024, Lingbin Bian
 
 Comparing Bayesian modelling and group averaging methods
 
-5. MANIP_individual_model.m   Perform individual modularity (scan:1,2; gender:0 for both female and male)
+5. MANIP_individual_model.m   Perform individual modularity (scan:1,2; gender:0 for both female and male). After modularity, individual module labels are switched to make them consistent across subjects using a relabelling algorithm implemented by a MATLAB function: labelswitching.m
 6. MANIP_group_model.m Perform   group-level analysis (scan:1,2; gender:0 for both female and male)
 7. DEMO_consistent_memberships.m   Consistent community memberships for both AP and PA using Bayesian modelling (gender:0 for both female and male)
 8. MANIP_modularity_group_ave.m   Modularity using group averaged FC (scan:1,2)
