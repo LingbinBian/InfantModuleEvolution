@@ -106,6 +106,10 @@ if scan==1
 else
     title(['PA',', ROI=',num2str(N_roi)],'fontsize', 16)
 end
+
+currentLabels = hLegend.String; % Get current labels (cell array)
+Labels_remove={currentLabels{1},currentLabels{2}};
+hLegend.String=Labels_remove;
  
 data_path = fileparts(mfilename('fullpath'));
 if scan==1
