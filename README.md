@@ -2,7 +2,7 @@ Instructions on how to run the code
 Version 1.0
 25-July-2024
 Copyright (c) 2024, Lingbin Bian
-
+-------------------------------------------------------------------------------------------------------------------------
 1.copy_ap_pa.sh   Copy the overall .txt ROI signals to ap.txt and pa.txt
 
 2.MANIP_signal_txt2mat.m   Transfer the ROI signals of .txt files to .mat files
@@ -12,7 +12,7 @@ Copyright (c) 2024, Lingbin Bian
 4.MANIP_roi2fc.m    Calculate functional connectivity
 
 Comparing Bayesian modelling and group averaging methods
-
+-------------------------------------------------------------------------------------------------------------------------
 5.MANIP_individual_model.m   Perform individual modularity (scan:1,2; gender:0 for both female and male). After modularity, individual module labels are switched to make them consistent across subjects using a relabelling algorithm implemented by a MATLAB function: labelswitching.m
 
 6.MANIP_group_model.m Perform   group-level analysis (scan:1,2; gender:0 for both female and male)
@@ -32,7 +32,7 @@ Comparing Bayesian modelling and group averaging methods
 13.MANIP_save_picture.m   Save the figures of experimental restuls
 
 Comparing the development of modular between male and female
-
+-------------------------------------------------------------------------------------------------------------------------
 14.MANIP_divide_data_F_M.m Divide the whole dataset into the group of female and male (for both FC and positive FC)
 
 15.MANIP_individual_model.m   Perform individual modularity (scan:1,2; gender:1 female; 2 male)
