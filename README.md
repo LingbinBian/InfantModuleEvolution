@@ -1,7 +1,5 @@
 Evaluating the evolution and inter-individual variability of infant functional module development from 0 to 5 yr old
-Version 1.0
-25-July-2024
-Copyright (c) 2024, Lingbin Bian
+(Version 1.0, 25-July-2024, Copyright (c) 2024, Lingbin Bian)
 -------------------------------------------------------------------------------------------------------------------------
 1.copy_ap_pa.sh   Copy the overall .txt ROI signals to ap.txt and pa.txt
 
