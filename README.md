@@ -1,4 +1,4 @@
-Instructions on how to run the code
+Evaluating the evolution and inter-individual variability of infant functional module development from 0 to 5 yr old
 Version 1.0
 25-July-2024
 Copyright (c) 2024, Lingbin Bian
